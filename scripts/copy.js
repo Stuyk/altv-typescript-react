@@ -10,7 +10,7 @@ async function copyResourceAssets(name) {
     for (let file of files) {
         const filePath = normalizeFilePath(file);
 
-        if(filePath.includes('src/scripts/')) {
+        if(filePath.includes('src/')) {
             const finalPath = filePath.replace('src/', 'resources/');
             fs.copySync(filePath, finalPath, {overwrite: true});
         }
