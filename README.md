@@ -22,6 +22,7 @@ A simple Typescript Boilerplate that builds incredibly fast using the [SWC Libra
 - Auto Download Resources
 - Single Resource Code Support
 - Fastest Auto Reconnect Time on Recompile
+- Compile Multiple Resources at Once
 - Built-in React for WebViews
 
 # Installation
@@ -94,3 +95,7 @@ Use the key combination `ctrl + c` to kill your server in your terminal, command
 ## How to Add Mods, and New Resources
 
 Always add your already compiled resources & mods into the `resources` folder.
+
+## How to ignore specific resources from compiling
+
+Add file name `.nocompile` to the resource folder you want to ignore from compiling.
